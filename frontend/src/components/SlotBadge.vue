@@ -12,20 +12,22 @@ defineProps<{
 
 <style scoped>
 span {
-  padding: 4px 8px;
-  border-radius: 4px;
+  padding: 4px 10px;
+  border-radius: 999px;
   color: white;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .free {
-  background: green;
+  background: #16a34a;
 }
 
 .nearly_full {
-  background: orange;
+  background: #ea580c;
 }
 
 .full {
-  background: red;
+  background: #dc2626;
 }
 </style>
